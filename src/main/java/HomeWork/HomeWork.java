@@ -12,22 +12,22 @@ public class HomeWork {
         double justOneNumber = 7;
         System.out.println(justOneNumber);
 
-        double several_numbers = 3 + justOneNumber;
-        System.out.println(several_numbers);
+        double severalNumbers = 3 + justOneNumber;
+        System.out.println(severalNumbers);
 
-        double math_example = sumOfNumbers + justOneNumber;
-        System.out.println(math_example);
+        double mathExample = sumOfNumbers + justOneNumber;
+        System.out.println(mathExample);
 
-        double first_number, second_number, totalAmount;
-        first_number = 10;
-        second_number = 5;
-        totalAmount = first_number + second_number;
-        System.out.println(first_number + second_number);
+        double firstNumber, secondNumber, totalAmount;
+        firstNumber = 10;
+        secondNumber = 5;
+        totalAmount = firstNumber + secondNumber;
+        System.out.println(firstNumber + secondNumber);
         System.out.println(totalAmount);
 
         // Float primitive type practice
 
-        float priceOfBlackBread = 0.80;
+        float priceOfBlackBread = 0.80f;
         System.out.println(priceOfBlackBread);
 
         float Min_Value = Float.MIN_VALUE;
@@ -36,7 +36,7 @@ public class HomeWork {
         float Max_Value = Float.MAX_VALUE;
         System.out.println(Max_Value);
 
-        float floatValue = 10.1f;
+        float floatValue = 10.9f;
         System.out.println(floatValue);
 
         float value1 = 5.2f;
@@ -79,8 +79,8 @@ public class HomeWork {
 
         System.out.printf("%s %s\n", myName, myLastName);
 
-        String nameAndUserName = String.format("%s %s\n", myName, myLastName);
-        System.out.println(nameAndUserName);
+
+        //StringBuilder sb = perevorachivajet slovo
 
         //Boolean
 
@@ -90,5 +90,7 @@ public class HomeWork {
         System.out.println(is_Java_Easy);
         System.out.println("true");
 
-    }
+        long veryBigNumber = 125452125;
+
+        }
 }

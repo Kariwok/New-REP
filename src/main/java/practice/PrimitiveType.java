@@ -1,12 +1,12 @@
 package practice;
-
+/*
 import javax.sound.midi.Soundbank;
 import java.sql.SQLOutput;
-
+*/
 public class PrimitiveType {
     public static void main(String[] args) {
 
-        // Double primitive type practice
+        //Double primitive type practice
 
         double doubleMinValue = Double.MIN_VALUE;
         System.out.println(doubleMinValue);
@@ -31,18 +31,17 @@ public class PrimitiveType {
         //String
         String myName="Karinka";
         String mysurname = "Kulakova";
+
         //Karina Kulakova
+
         System.out.println(myName+""+mysurname);
         System.out.printf("%s %s\n,myName,mysurname");
 
         //Boolean
 
         boolean isStudent=true;
-        
-
-
-
+        boolean iswoomen=false;
+        System.out.println(isStudent);
 
     }
 }
-

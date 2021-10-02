@@ -24,9 +24,17 @@ public class HomeWork_Boolean {
         int lSize = 10;
         System.out.println("Price of big size is: " + lSize);
 
-        boolean smallPica = true;
-        if (smallPica) {
+        boolean lsize = true;
+        if (lsize) {
             System.out.println("Please take that small Pica");
+        } else {
+            System.out.println("Take medium or big");
+        }
+
+        int yourMoney=9;
+        boolean yourOrder= true;
+        if (lSize<yourMoney){
+            System.out.println("Take it");
         } else {
             System.out.println("Take medium or big");
         }
